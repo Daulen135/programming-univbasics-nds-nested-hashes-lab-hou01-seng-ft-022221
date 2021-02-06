@@ -59,6 +59,7 @@ literal_aoh_array=[
   { name:  "Bruce Green", occupation: "Fan of Mildred" }
 ]
 literal_aoh_array[1][:name]="Joelle van Dyne (PGOAT)"
+literal_aoh_array
 end
 
 
