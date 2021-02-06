@@ -32,12 +32,10 @@ literal_aoh_array=[
 ]
 
 
-end
+
 
 def aoh_lookup(aoh, row, key)
-
-
-
+literal_aoh_array[2][:name]
 
 
 end
