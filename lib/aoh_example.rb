@@ -51,6 +51,13 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+
+
 end
 
-
+describe 'When a learning to update cells in AoHs,' do
+  describe 'when given a AoH, row, column, and new_value argument,' do
+    it 'the aoh_update method returns an updated aoh' do
+      local_copy_of_aoh = assembled_aoh.dup
+      result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
+      expect(result[1][:name]).to eq("Joelle van Dyne (PGOAT)")
