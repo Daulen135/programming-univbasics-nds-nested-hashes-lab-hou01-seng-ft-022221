@@ -58,7 +58,7 @@ literal_aoh_array=[
   { name:  "Kate Gompert", occupation: "None" },
   { name:  "Bruce Green", occupation: "Fan of Mildred" }
 ]
-
+literal_aoh_array[1][:name]=
 end
 
 describe 'When a learning to update cells in AoHs,' do
